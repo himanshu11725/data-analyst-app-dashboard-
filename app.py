@@ -7,9 +7,9 @@ import streamlit as st
 from cleaner import MAX_FILE_MB, CleanOptions, FileError, clean, load_file, profile
 from insights import DOMAINS, build_dashboard, column_roles, custom_chart, detect_domain
 
-st.set_page_config(page_title="Personal Data Analyst", page_icon="📊", layout="wide")
+st.set_page_config(page_title="Tidy Data", page_icon="📊", layout="wide")
 
-st.title("📊 Personal Data Analyst")
+st.title("📊 Tidy Data ")
 st.caption(
     "Upload a messy CSV or Excel file. Get a cleaned version, a health check, and a download. "
     "Your file is processed in memory and is not stored."
